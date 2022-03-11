@@ -1,0 +1,124 @@
+
+/*TYPO*/
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+</style>
+
+/*font-family: 'Dancing Script', cursive; --> manuscrit
+font-family: 'Poppins', sans-serif; --> titre
+font-family: 'Ubuntu', sans-serif; --> texte*/
+
+/*TITRES*/
+
+h1{
+	color: black;
+	padding: 20px;
+}
+
+/*LIEN THALES*/
+
+.thales{
+border-radius: 6px;
+padding: 8px;
+background-color:#07175d;
+color:white;
+text-decoration: none
+}
+
+.thales:hover{
+	background-color:white;
+	color:#07175d;;
+	transition:600ms;
+}
+
+/*COULEURS*/
+
+body{
+	background-color:white;
+	background-image: url(image/fond.jpg);
+	font-family: 'Ubuntu', sans-serif;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 85%;
+}
+
+div{
+    background-color: white;
+    text-align: left;
+    padding: 24px;
+    width: 70%;
+    margin: 16px auto;
+    border-radius: 6px;
+    box-shadow: 9px 8px 9px 0px;
+}
+
+/*PHOTO*/
+
+#photo {
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/*INTRO ET CONTACT*/
+
+
+.intro{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    opacity: 100%;
+    background: #3e668469;
+    border-radius: none;
+    box-shadow: none;
+    border-radius: 0%;
+    height: 400;
+    width: 90%;
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    opacity: 100%;
+    background: #00000036;
+    text-decoration: none;
+    border-radius: none;
+    box-shadow: none;
+    border-radius: 0%;
+    height: 200;
+    width: 90%;
+}
+
+.touteintro{
+	align-content: center;
+	background: white;
+}
+
+.fa-brands{
+	font-size: 50px;
+}
+
+/*TITRES*/
+
+.title2{
+	display: inline;
+}
+
+.title3{
+	color: #48669c;
+}
+
+.titlepro{
+	color: #48669c;
+}
+
+
+
+
